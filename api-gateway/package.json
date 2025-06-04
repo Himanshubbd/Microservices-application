@@ -1,0 +1,16 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "API Gateway for microservices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "node-fetch": "^2.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
